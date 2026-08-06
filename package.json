@@ -17,6 +17,7 @@
     "@types/node": "^20.19.11",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
+    "eslint": "^10.8.0",
     "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.2"
