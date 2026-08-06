@@ -1,0 +1,141 @@
+export type Obra = {
+  slug: string;
+  title: string;
+  category: string;
+  location: string;
+  description: string;
+  images: string[];
+  videos?: string[];
+};
+
+export const obras: Obra[] = [
+  {
+    slug: "federar",
+    title: "FEDERAR",
+    category: "Comercial",
+    location: "Buenos Aires",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/federar/cover.webp",
+      "/portfolio/federar/02.webp",
+      "/portfolio/federar/03.webp",
+      "/portfolio/federar/04.webp",
+      "/portfolio/federar/05.webp",
+      "/portfolio/federar/06.webp"
+    ]
+  },
+  {
+    slug: "gcba-via-publica",
+    title: "GOBIERNO DE LA CIUDAD DE BS AS. | VIA PUBLICA",
+    category: "Industrial",
+    location: "CABA",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/gcba-via-publica/cover.webp",
+      "/portfolio/gcba-via-publica/02.webp",
+      "/portfolio/gcba-via-publica/03.webp",
+      "/portfolio/gcba-via-publica/04.webp",
+      "/portfolio/gcba-via-publica/05.webp",
+      "/portfolio/gcba-via-publica/06.webp"
+    ],
+    videos: ["/videos/gcba-via-publica.mp4"]
+  },
+  {
+    slug: "zapiola-2066",
+    title: "MANTENIMIENTO INTEGRAL EDIFICIO ZAPIOLA 2066 - CABA",
+    category: "Mantenimiento",
+    location: "CABA",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/zapiola-2066/cover.webp",
+      "/portfolio/zapiola-2066/02.webp",
+      "/portfolio/zapiola-2066/03.webp",
+      "/portfolio/zapiola-2066/04.webp",
+      "/portfolio/zapiola-2066/05.webp",
+      "/portfolio/zapiola-2066/06.webp"
+    ]
+  },
+  {
+    slug: "megatone-pueyrredon",
+    title: "Red MEGATONE | Av. PUYRREDON - CABA",
+    category: "Comercial",
+    location: "CABA",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/megatone-pueyrredon/cover.webp",
+      "/portfolio/megatone-pueyrredon/02.webp",
+      "/portfolio/megatone-pueyrredon/03.webp",
+      "/portfolio/megatone-pueyrredon/04.webp",
+      "/portfolio/megatone-pueyrredon/05.webp",
+      "/portfolio/megatone-pueyrredon/06.webp"
+    ]
+  },
+  {
+    slug: "dia-vicente-lopez",
+    title: "SUPERMERCADOS DIA | CD VICENTE LOPEZ - BS AS",
+    category: "Industrial",
+    location: "Vicente López, Buenos Aires",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/dia-vicente-lopez/cover.webp",
+      "/portfolio/dia-vicente-lopez/02.webp",
+      "/portfolio/dia-vicente-lopez/03.webp",
+      "/portfolio/dia-vicente-lopez/04.webp",
+      "/portfolio/dia-vicente-lopez/05.webp",
+      "/portfolio/dia-vicente-lopez/06.webp"
+    ],
+    videos: ["/videos/dia-vicente-lopez.mp4"]
+  },
+  {
+    slug: "claro",
+    title: "TELEFONIA CLARO",
+    category: "Retail",
+    location: "Buenos Aires",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/claro/cover.webp",
+      "/portfolio/claro/02.webp",
+      "/portfolio/claro/03.webp",
+      "/portfolio/claro/04.webp",
+      "/portfolio/claro/05.webp",
+      "/portfolio/claro/06.webp"
+    ],
+    videos: ["/videos/claro.mp4"]
+  },
+  {
+    slug: "vital-salon",
+    title: "VITAL LAFERRERE REMODEL SALON DE VENTAS Y ÁREA DE COLABORADORES",
+    category: "Retail",
+    location: "Laferrere, Buenos Aires",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/vital-salon/cover.webp",
+      "/portfolio/vital-salon/02.webp",
+      "/portfolio/vital-salon/03.webp",
+      "/portfolio/vital-salon/04.webp",
+      "/portfolio/vital-salon/05.webp",
+      "/portfolio/vital-salon/06.webp"
+    ],
+    videos: ["/videos/vital-salon.mp4"]
+  },
+  {
+    slug: "vital-parking",
+    title: "VITAL LAFERRERE | PARKING CLIENTES",
+    category: "Retail",
+    location: "Laferrere, Buenos Aires",
+    description: "Trabajos realizados.",
+    images: [
+      "/portfolio/vital-parking/cover.webp",
+      "/portfolio/vital-parking/02.webp",
+      "/portfolio/vital-parking/03.webp",
+      "/portfolio/vital-parking/04.webp",
+      "/portfolio/vital-parking/05.webp",
+      "/portfolio/vital-parking/06.webp"
+    ],
+    videos: ["/videos/vital-parking.mp4"]
+  }
+];
+
+export function getObra(slug: string) {
+  return obras.find((obra) => obra.slug === slug);
+}
