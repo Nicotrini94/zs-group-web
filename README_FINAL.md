@@ -1,30 +1,40 @@
-# ZS GROUP SRL — Versión 2.4 final
+# ZS GROUP SRL — Sitio Web Corporativo
 
-Sitio corporativo basado en el brochure oficial de ZS GROUP SRL y en el material fotográfico y audiovisual entregado por la empresa.
+Sitio web corporativo desarrollado para **ZS GROUP SRL**, empresa especializada en proyectos de los rubros **Industrial, Comercial y Retail**.
 
-## Ejecutar localmente
+## 🌐 Sitio web
 
-```powershell
-npm install
-npm run dev
-```
+🔗 [Visitar sitio web](https://zs-group-web.vercel.app)
 
-Abrir: `http://localhost:3000`
+## 🛠️ Tecnologías utilizadas
 
-## Antes de publicar
+- Next.js
+- React
+- TypeScript
+- CSS
+- Vercel
 
-1. Crear un archivo `.env.local`.
-2. Copiar el contenido de `.env.example`.
-3. Reemplazar `https://tu-dominio.com` por el dominio real o la URL de Vercel.
-4. Ejecutar `npm run build`.
-5. Revisar Inicio, Nosotros, Servicios, Obras, Clientes, Contacto y los dos enlaces de WhatsApp.
+## ✨ Características
 
-## Publicación en Vercel
+- Diseño responsive para computadoras, tablets y dispositivos móviles.
+- Página institucional de la empresa.
+- Presentación de servicios.
+- Portafolio de proyectos con filtros.
+- Páginas individuales para cada proyecto.
+- Fotografías optimizadas en formato WebP.
+- Integración directa con WhatsApp.
+- Navegación responsive.
+- Configuración de metadatos SEO.
+- robots.txt y sitemap.
+- Manifiesto web.
 
-- Subir el proyecto a GitHub.
-- Importarlo desde Vercel.
-- Configurar la variable `NEXT_PUBLIC_SITE_URL`.
-- Publicar.
+## 📂 Estructura principal
+
+```text
+app/
+componentes/
+biblioteca/
+público/
 
 ## Contenido
 
