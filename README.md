@@ -1,44 +1,40 @@
-# ZS GROUP SRL — Sitio web corporativo
+# ZS GROUP SRL — Sitio Web Corporativo
 
-Sitio institucional desarrollado con Next.js y TypeScript para una empresa especializada en los rubros Industrial, Comercial y Retail.
+Sitio web corporativo desarrollado para **ZS GROUP SRL**, empresa especializada en proyectos de los rubros **Industrial, Comercial y Retail**.
 
-## Ejecutar en desarrollo
+## 🌐 Sitio web
 
-```powershell
-npm install
-npm run dev
-```
+🔗 [Visitar sitio web](https://zs-group-web.vercel.app)
 
-Abrir: http://localhost:3000
+## 🛠️ Tecnologías utilizadas
 
-## Compilar para producción
+- Next.js
+- React
+- TypeScript
+- CSS
+- Vercel
 
-```powershell
-npm run build
-npm start
-```
+## ✨ Características
 
-## Publicar en Vercel
+- Diseño responsive para computadoras, tablets y dispositivos móviles.
+- Página institucional de la empresa.
+- Presentación de servicios.
+- Portafolio de proyectos con filtros.
+- Páginas individuales para cada proyecto.
+- Fotografías optimizadas en formato WebP.
+- Integración directa con WhatsApp.
+- Navegación responsive.
+- Configuración de metadatos SEO.
+- robots.txt y sitemap.
+- Manifiesto web.
 
-1. Subir la carpeta a un repositorio de GitHub.
-2. Ingresar en Vercel y elegir **Add New Project**.
-3. Importar el repositorio.
-4. Vercel detectará Next.js automáticamente.
-5. Presionar **Deploy**.
+## 📂 Estructura principal
 
-## Contenido principal
-
-- Página institucional responsive.
-- Servicios de Proyecto, Dirección de Obra, Gerenciamiento, Construcción, Remodelación y Mantenimiento.
-- Portfolio con filtros y páginas individuales por obra.
-- Fotografías reales optimizadas en WebP.
-- Navegación correcta desde las páginas del portfolio.
-- Acceso directo a WhatsApp.
-- Metadata, manifest, robots y sitemap iniciales.
-
-## Antes de publicar con dominio definitivo
-
-Reemplazar `https://zsgroup-srl.com` en:
+```text
+app/
+componentes/
+biblioteca/
+público/
 
 - `app/layout.tsx`
 - `app/robots.ts`
